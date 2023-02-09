@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Outfit:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back {
+    background-color: white;
+    height: 450px;
+    width: 270px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 2em;
+}
+
+.img {
+    background-image: url("images/image-product-desktop.jpg");
+    height: 450px;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.back p {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+}
+
+.first-p {
+    letter-spacing: 5px;
+}
+
+.back h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    margin: 15px auto;
+}
+
+.value {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+span {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: hsl(158, 36%, 37%);
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 13px 0px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    transition: .3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(158, 35%, 25%)
+}
+
+button img {
+    margin-right: 9px;
+    vertical-align: middle;
+}

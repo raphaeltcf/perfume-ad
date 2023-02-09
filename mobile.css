@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1000px) {
+
+    .container {
+        display: block;
+    }
+
+    .back {
+        width: 350px;
+        height: auto;
+        padding: 1em;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .img {
+        width: 350px;
+        background-image: url("images/image-product-mobile.jpg");
+        height: 270px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    h2 {
+        margin-top: 5px;
+    }
+
+}
